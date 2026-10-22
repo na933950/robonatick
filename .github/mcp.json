@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "type": "local",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp@latest",
+        "--headless",
+        "--isolated",
+        "--no-webmcp",
+        "--allowed-origins",
+        "http://localhost:*;http://127.0.0.1:*"
+      ],
+      "tools": [
+        "browser_click",
+        "browser_console_messages",
+        "browser_find",
+        "browser_navigate",
+        "browser_press_key",
+        "browser_resize",
+        "browser_snapshot",
+        "browser_take_screenshot"
+      ]
+    }
+  }
+}
