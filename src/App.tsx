@@ -472,7 +472,7 @@ function App() {
             </div>
             <div className="community-story">
               <img
-                src="/images/teams-at-mathworks.png"
+                src={`${import.meta.env.BASE_URL}images/teams-at-mathworks.png`}
                 alt="RoboNatick students and robots outside a MathWorks building"
                 loading="lazy"
               />
@@ -567,7 +567,7 @@ function App() {
                 <Events content={content} />
                 <div className="event-photo">
                   <img
-                    src="/images/qualifier-team.png"
+                    src={`${import.meta.env.BASE_URL}images/qualifier-team.png`}
                     alt="RoboNatick students with their robot at a competition"
                     loading="lazy"
                   />
